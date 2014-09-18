@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="box boxes">
+        <div class="box box1">
+            <article id="aboutme">
+            	{% block aboutme %}
+                <h2>
+                <a href="/">HOME</a>
+                </h2>
+            	{% endblock %}
+            </article>
+        </div>
+        <div class="box box2"><h2>Browse</h2></div>
+        <div class="box box3"><h2>myFILE</h2></div>
+<!--         <div class="box box1">
+            <article id="contact">
+                {% block contact %}
+                <h2>
+                <a href="/">signup/login</a>
+                </h2>
+                {% endblock %}
+            </article>
+        </div> -->
+    </div>
+    <article id="films" class='flex-content'>
+    {% block films %}
+        {% for film in films %}
+        <div class='flex-content post'>
+            <h3>{{film.title}}</h3>
+            <h4>Average Rating: <span class='score'>{{film.rating}}</span></h4>
+            <p class='side-url'>{{film.blurb}}</p>
+            <br>
+        </div>
+        {% endfor %}
+    {% endblock %}
+    </article>
+    <article id="myfilms" class='flex-content'>
+    {% block myfilms %}
+        {% for myfilm in myfilms %}
+        <div class='flex-content post'>
+            <h3>{{myfilm.mytitle}}</h3>         
+            <h4>myScore: <span class='score'>{{myfilm.myrating}}%</span></h4>
+            <p class='side-url'>
+            {{myfilm.myblurb}}</p>
+            <br>
+        </div>
+        {% endfor %}
+    {% endblock %}
+    </article>
+{% endblock %}

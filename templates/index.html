@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="/static/css/main.css" />
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Limelight|Rationale' rel='stylesheet' type='text/css'>
+    <title>reelFriends</title>
+</head>
+<body>
+    <div class="flex-container">
+        <span id="header-banner-logo" class="header">
+            <span class='banner'>reelFriends</span>
+                <span class="box box4">
+                    <div id="contact">
+                    	<h2><a href="/myfilms">{{username}}</a></h2>
+                    </div>
+                </span>
+        </span>
+        <div class="ohman-content flex-container">
+		    <div class="box boxes">
+		        <div class="box box1">
+		            <article id="aboutme">
+		                <h2><a href="/">HOME</a></h2>
+		            </article>
+		        </div>
+		        <div class="box box2"><h2>Browse</h2></div>
+		        <div class="box box3"><h2>myFILE</h2></div>
+		    </div>
+        <div id="films" class="flex-content">
+        	<form id="addFilm" action="#" method="post">
+        		<div>
+				    <label for="title">title</label>
+				    <input id="title" name= 'title' type="text" />
+				    <label for="rating">rating</label>
+				    <input id="rating" name= 'rating'type="text" />
+				    <label for="blurb">blurb</label>
+				    <input id="blurb" name= 'blurb' type="text" />
+				    <label for="keywords">keywords</label>
+				    <input id="keywords" name= 'keywords' type="text" />
+				    <button id="add"> Add </button>
+				    <input type="submit">
+      				<div class="error">{{error}}</div>
+        		</div>
+        	</form>
+        </div>
+    	<div id="myfilms" class='flex-content'>
+            <form id="addFilm" action="#" method="post">
+                <div>
+                    <label for="mytitle">title</label>
+                    <input id="mytitle" name= 'title' type="text" />
+                    <label for="myrating">rating</label>
+                    <input id="myrating" name= 'rating'type="text" />
+                    <label for="myblurb">blurb</label>
+                    <input id="myblurb" name= 'blurb' type="text" />
+                    <label for="mykeywords">keywords</label>
+                    <input id="mykeywords" name= 'keywords' type="text" />
+                    <button id="add"> Add </button>
+                    <input type="submit">
+                    <div class="error">{{error}}</div>
+                </div>
+            </form>   
+        </div>
+
+        <div class="footer">
+            <h2><a href="/">HOME</a></h2>
+            <h2><a href="/signup-form">signup/login</a></h2>
+            <h2><a href="/admin/newmyfilm">new review</a></h2>
+            <script id='filmTemplate' type='text/template'>
+			    	<h3><%= title %></h3>
+			    	<h4>Average Score <%= rating %></h4>
+			    	<p class='side-url'><%= blurb %></p>
+			    	<p><%= keywords %></p>
+				    <button class="delete"> Delete</button>
+			</script>
+			<script id='myFilmTemplate' type='text/template'>
+			    <!--// <div class="filmContainer flex-content post">-->
+			    	<h3><%= mytitle %></h3>
+			    	<h4>My Score <%= myrating %>%</h4>
+			    	<p class='side-url'><%= myblurb %><br>
+			    	by: <%= user %></p>
+			    	<p><%= mykeywords %></p>
+				    <button class="delete"> Delete</button>
+			    <!--// </div>-->
+			</script>
+        </div>
+    </div>
+
+    <script type='text/javascript' src='/static/js/filmofile.js'></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type='text/javascript' src='/static/js/bbone/lib/underscore-min.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/lib/backbone-min.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/models/film.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/models/myfilm.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/collections/library.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/collections/mylibrary.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/views/film.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/views/myfilm.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/views/library.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/views/mylibrary.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/app.js'></script>
+</body>
+</html>

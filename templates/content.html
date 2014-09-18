@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="box boxes">
+        <div class="box box1">
+            <article id="aboutme">
+            	{% block aboutme %}
+                <h2>
+                <a href="/">HOME</a>
+                </h2>
+            	{% endblock %}
+            </article>
+        </div>
+        <div class="box box2"><h2>FILMS</h2></div>
+        <div class="box box3"><h2>MYFILE</h2></div>
+<!--         <div class="box box1">
+            <article id="contact">
+                {% block contact %}
+                <h2>
+                <a href="/">signup/login</a>
+                </h2>
+                {% endblock %}
+            </article>
+        </div> -->
+    </div>
+    <article id="blog" class='flex-content'>
+    {% block blog %}
+    {% for post in posts %}
+        <div class='flex-content post'>
+            <h3>{{post.subject}}</h3>
+            <p>{{post.content}}</p>
+            <br>
+        </div>
+        {% endfor %}
+    {% endblock %}
+    </article>
+    <article id="side-projects" class='flex-content'>
+    {% block projects %}
+        {% for project in projects %}
+        <div class='flex-container project'>
+            <h3><a href={{project.url}}>{{project.title}}</a></h3><br>
+            <p class='side-url'><a href={{project.url}}>{{project.url}}</a><br>
+            {{project.blurb}}</p>
+        </div>
+        {% endfor %}
+    {% endblock %}
+    </article>
+{% endblock %}

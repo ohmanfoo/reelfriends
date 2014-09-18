@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="/static/css/main.css" />
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Limelight|Rationale' rel='stylesheet' type='text/css'>
+    <title>reelFriends</title>
+</head>
+<body>
+    <div class="flex-container">
+        <span id="header-banner-logo" class="header">
+            <span class='banner'>reelFriends</span>
+                <span class="box box4">
+                    <div id="contact">
+                        {% block contact %}
+                            <h2><a href="/signup-form">signup/login</a></h2>
+                        {% endblock %}
+                    </div>
+                </span>
+        </span>
+        <div class="ohman-content flex-container">
+
+        <div class="icons"> 
+<!--             <a href="/"><img src="https://i.imgur.com/CQsmyDT.jpg?1" title="twitter" /></a>
+            <a href="/"><img src="https://i.imgur.com/fKcMa1H.png?1" title="linkedin" /></a>
+            <a href="https://github.com/ohmanfoo"><img src="https://i.imgur.com/KzzsxZl.jpg?1" title="github" /></a>
+            <a href="/"><img src="https://i.imgur.com/RszFIPh.png?1" title="gplus" /></a> -->
+<!--         </div>
+            {% block content %}
+            {% block blog %}
+            {% endblock %}
+            {% block projects %}
+            {% endblock %}
+            {% endblock %}
+        </div> -->
+
+        <div id="books">
+        	<form id="addBook" action="#">
+        		<div>
+				    <label for="coverImage"></label>
+				    <input id="coverImage" type="file">
+
+				    <label for="title">Title:</label>
+				    <input id="title" type="text">
+
+				    <label for="author">Author:</label>	
+				    <input id="author" type="text">	
+
+				    <label for="releaseDate">Release Date</label>
+				    <input id="releaseDate" type="text">
+
+				    <label for="keywords"></label>
+				    <input id="keywords" type="text" />
+
+				    <button id="add"> Add</button>
+
+        		</div>
+        	</form>
+        </div>
+
+
+
+        <div class="footer">
+            <h2><a href="/">HOME</a></h2>
+            <h2><a href="/signup-form">signup/login</a></h2>
+            <h2><a href="/admin/newmyfilm">new review</a></h2>
+            <script id='bookTemplate' type='text/template'>
+			    <div class="bookContainer post flex-content">
+				    <img src="<%= coverImage %>" />
+				    <ul>
+				    	<li><h3>Title</h3></li>
+				    	<li><h4>Rating</h4></li>
+				    	<li><p>Author</p></li>
+				    	<li><p>Keywords</p></li>
+				    </ul>
+				    <button class="delete"> Delete</button>
+			    </div>
+			</script>
+        </div>
+    </div>
+
+    <script type='text/javascript' src='/static/js/filmofile.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/lib/jquery.min.js'></script>
+    <script type='text/javascript' src='/static/js/bbone/lib/underscore-min.js'></script>
+    <script type='text/javascript' src='/static/js/lib/backbone-min.js'></script>
+    <script type='text/javascript' src='/static/js/models/book.js'></script>
+    <script type='text/javascript' src='/static/js/collections/library.js'></script>
+    <script type='text/javascript' src='/static/js/views/book.js'></script>
+    <script type='text/javascript' src='/static/js/views/library.js'></script>
+    <script type='text/javascript' src='/static/js/app.js'></script>
+</body>
+</html>

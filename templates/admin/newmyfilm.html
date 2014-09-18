@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>new myfilm</h2>
+
+    <form method="post">
+      <label>
+        <div>title</div>
+        <input type="text" name="title" value="{{title}}">
+      </label>
+      <label>
+        <div>rating</div>
+        <input type="text" name="rating" value="{{rating}}">
+      </label>
+      <label>
+        <div>review</div>
+        <input type="text" name="blurb" value="{{blurb}}">
+      </label>
+
+      <div class="error">{{error}}</div>
+
+      <input type="submit">
+    </form>
+{% endblock %}

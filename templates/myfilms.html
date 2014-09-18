@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block myfilms %}
+
+	{% for myfilm in myfilms %}
+	<div class='post flex-content'>
+        <h3>{{myfilm.title}}</h3><br>
+        <h4>My Score {{myfilm.rating}}%</h4>
+        <br><p class='side-url'>{{myfilm.blurb}} by: {{myfilm.user}}</p>
+	</div>
+	{% endfor %}
+
+{% endblock %}

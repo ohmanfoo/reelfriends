@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block myfilms %}
+
+	{% for film in myfilms %}
+	<div class='project flex-container'>
+        <h3><a href={{myfilm.title}}>{{myfilm.title}}</a></h3><br>
+	</div>
+	{% endfor %}
+
+{% endblock %}
