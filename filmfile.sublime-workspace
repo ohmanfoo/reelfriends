@@ -1,0 +1,1117 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"render",
+				"render_json"
+			],
+			[
+				"film",
+				"film_obj"
+			],
+			[
+				"user",
+				"user_title"
+			],
+			[
+				"top",
+				"top_myfilms"
+			],
+			[
+				"films",
+				"films"
+			],
+			[
+				"file",
+				"filmfile"
+			],
+			[
+				"ti",
+				"title_check"
+			],
+			[
+				"delete",
+				"deleteBook"
+			],
+			[
+				"b",
+				"backbone-test"
+			],
+			[
+				"Main",
+				"MainBackBonePage"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"border-b",
+				"border-bottom-style"
+			],
+			[
+				"bord",
+				"border-left-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"o",
+				"orientation"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"in",
+				"innerHeight"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"borderbo",
+				"border-bottom-width"
+			],
+			[
+				"blog",
+				"blogContainer"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"blo",
+				"blogContent"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"button",
+				"button_content"
+			],
+			[
+				"re",
+				"revealed"
+			],
+			[
+				"RE",
+				"required"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/topfilms.html",
+			"settings":
+			{
+				"buffer_size": 1539,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 4741,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/vartools.py",
+			"settings":
+			{
+				"buffer_size": 1432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/filmofile.py",
+			"settings":
+			{
+				"buffer_size": 3227,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "filmfile.py",
+			"settings":
+			{
+				"buffer_size": 10039,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/views.py",
+			"settings":
+			{
+				"buffer_size": 13383,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/models.py",
+			"settings":
+			{
+				"buffer_size": 3337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Downloads/hw5/blog.py",
+			"settings":
+			{
+				"buffer_size": 9250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/js/filmofile.js",
+			"settings":
+			{
+				"buffer_size": 2347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/bbone/app.js",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/bbone/collections/mylibrary.js",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/bbone/models/myfilm.js",
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/bbone/views/myfilm.js",
+			"settings":
+			{
+				"buffer_size": 480,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/js/bbone/views/mylibrary.js",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/gapp/filmfile/static/js/bbone/views/library.js",
+		"/C/gapp/filmfile/templates/permalink.html",
+		"/C/gapp/filmfile/static/css/main.css",
+		"/C/Users/admin/Downloads/hw5/templates/welcome.html",
+		"/C/gapp/filmfile/templates/index.html",
+		"/C/gapp/filmfile/templates/topfilms.html",
+		"/C/gapp/filmfile/templates/admin/newmyfilm.html",
+		"/C/gapp/filmfile/templates/front.html",
+		"/C/gapp/filmfile/templates/base.html",
+		"/C/gapp/filmfile/templates/myfilms.html",
+		"/C/gapp/filmfile/templates/films.html",
+		"/C/gapp/filmfile/static/js/bbone/models/film.js",
+		"/C/gapp/filmfile/static/js/bbone/views/film.js",
+		"/C/gapp/filmfile/static/js/bbone/collections/library.js",
+		"/C/gapp/filmfile/templates/film.html",
+		"/C/gapp/filmfile/templates/myfilm.html",
+		"/C/Users/admin/Downloads/hw5/blog.py",
+		"/C/gapp/filmfile/lib/vartools.py",
+		"/C/Users/admin/Documents/resume/windows-www/hw4/blog.py",
+		"/C/gapp/filmfile/app.yaml",
+		"/C/gapp/filmfile/templates/content.html",
+		"//ohmanstash/Public/Videos/mov/C_D/The.China.Syndrome.1979.1080p.BluRay.x264.anoXmous/The.China.Syndrome.1979.720p.BluRay.X264-AMIABLE.srt",
+		"//ohmanstash/Public/Videos/mov/C_D/The.China.Syndrome.1979.1080p.BluRay.x264.anoXmous/The.China.Syndrome.1979.1080p.BluRay.x264.anoXmous_eng.srt",
+		"/C/gapp/filmfile/static/css/wsk-components.css",
+		"/C/gapp/filmfile/static/css/wsk.css",
+		"/C/gapp/wsk/web-starter-kit-master/dist/styles/components.css",
+		"/C/Users/admin/Downloads/web-starter-kit-0.5.0/app/scripts/main.js",
+		"/C/gapp/filmfile/lib/filmofile.py",
+		"/C/gapp/filmfile/lib/__init__.py",
+		"/C/Users/admin/Downloads/web-starter-kit-0.5.0.zip",
+		"/C/gapp/filmfile/templates/projects.html",
+		"/C/gapp/filmfile/templates/blog.html",
+		"/C/gapp/filmfile/templates/post.html",
+		"/C/gapp/filmfile/templates/project.html",
+		"/C/Users/admin/Downloads/web-starter-kit-0.2.0-beta/app/scripts/main.js",
+		"/C/gapp/app.yaml",
+		"/C/gapp/static/js/ohman.js",
+		"/C/gapp/templates/content.html",
+		"/C/gapp/views/views.py",
+		"/C/gapp/ohmanfoo.py",
+		"/C/gapp/templates/base.html",
+		"/C/gapp/static/css/main.css",
+		"/C/gapp/filmfile/views/views.py",
+		"/C/Users/admin/Documents/resume/windows-www/ohmanfoo/googlewebstart/web-starter-kit-0.2.0-beta/app/manifest.webapp",
+		"/C/gapp/ohmanfoo/templates/blog.html",
+		"/C/gapp/ohmanfoo/templates/front.html",
+		"/C/gapp/ohmanfoo/app.yaml",
+		"/C/Users/admin/Downloads/web-starter-kit-0.2.0-beta/app/robots.txt",
+		"/C/Program Files/Google/google_appengine/php/new_project_template/main.php",
+		"/C/Program Files/Google/google_appengine/new_project_template/app.yaml",
+		"/C/Program Files/Google/google_appengine/new_project_template/main.py",
+		"//ohmanstash/Public/tomove/Starcraft No Install/Readme.cnt",
+		"/C/gapp/ohmanfoo/templates/base.html",
+		"/C/gapp/ohmanfoo/templates/content.html",
+		"/C/gapp/ohmanfoo/templates/projects.html",
+		"/C/Users/admin/Documents/Downloads/Roller Coaster Tycoon 3 Platinum (Original Game + All Expansions ) - CarlesNeo/YO ! ReadME !.txt",
+		"/C/Users/admin/Downloads/Game of Thrones - 04x05 - First of His Name.KILLERS.English.HI.C.updated.Addic7ed.com.srt",
+		"/C/gapp/ohmanfoo/templates/post.html",
+		"/C/gapp/ohmanfoo/templates/project.html",
+		"/C/gapp/ohmanfoo/ohmanfoo.py",
+		"/C/gapp/ohmanfoo/static/js/ohman.js",
+		"/C/gapp/ohmanfoo/static/js/ohmanstart.js",
+		"/C/gapp/ohmanfoo/static/js/effect.js",
+		"/C/gapp/ohmanfoo/views/views.py",
+		"/C/gapp/ohmanfoo/models/models.py",
+		"/C/gapp/ohmanfoo/static/js/effects.js",
+		"/C/gapp/ohmanfoo/static/css/main.css",
+		"/C/gapp/ohmanfoo/lib/vartools.py",
+		"/C/gapp/ohmanfoomodular/templates/admin/newpost.html",
+		"/C/gapp/ohmanfoomodular/templates/admin/newproject.html",
+		"/C/gapp/ohmanfoomodular/templates/projects.html",
+		"/C/gapp/ohmanfoomodular/templates/post.html",
+		"/C/gapp/ohmanfoomodular/templates/project.html",
+		"/C/gapp/ohmanfoomodular/templates/permalink.html",
+		"/C/gapp/ohmanfoomodular/templates/signup-form.html",
+		"/C/gapp/ohmanfoomodular/templates/front.html",
+		"/C/gapp/ohmanfoomodular/templates/blog.html",
+		"/C/gapp/ohmanfoomodular/templates/content.html",
+		"/C/gapp/ohmanfoomodular/models/models.py",
+		"/C/gapp/ohmanfoomodular/views/views.py",
+		"/C/gapp/ohmanfoomodular/ohmanfoomodular.py",
+		"/C/gapp/ohmanfoomodular/templates/base.html",
+		"/C/gapp/ohmanfoomodular/static/css/main.css",
+		"/C/gapp/ohmanfoomodular/templates/aboutme.html",
+		"/C/gapp/ohmanfoo-modular/templates/admin/newproject.html",
+		"/C/gapp/ohmanfoo-modular/templates/projects.html",
+		"/C/gapp/ohmanfoo-modular/templates/admin/newpost.html",
+		"/C/gapp/ohmanfoo-modular/templates/post.html",
+		"/C/gapp/ohmanfoo-modular/templates/content.html",
+		"/C/gapp/ohmanfoo-modular/templates/blog.html",
+		"/C/gapp/ohmanfoo-modular/templates/base.html",
+		"/C/gapp/ohmanfoo-modular/lib/vartools.py",
+		"/C/gapp/ohmanfoo-modular/models/models.py",
+		"/C/gapp/ohmanfoo-modular/app.yaml",
+		"/C/gapp/ohmanfoo-modular/views/views.py",
+		"/C/gapp/ohmanfoo-modular/ohmanfoomodular.py",
+		"/C/gapp/ohmanfoo-modular/templates/permalink.html",
+		"/C/gapp/ohmanfoo-modular/lib/__init__.py",
+		"/C/gapp/ohmanfoo-modular/lib/vartools",
+		"/C/gapp/ohmanfoo-modular/lib/valid.py",
+		"/C/gapp/ohmanfoo-modular/lib/jinja.py",
+		"/C/gapp/ohmanfoo-modular/lib/main.py",
+		"/C/gapp/ohmanfoo-modular/lib/imports.py",
+		"/C/gapp/ohmanfoo-modular/ohmanfoo-modular.py",
+		"/C/gapp/ohmanfoo-modular/imports.py",
+		"/C/gapp/ohmanfoo-modular/main.py",
+		"/C/gapp/ohmanfoo-modular/blogstuff.py",
+		"/C/gapp/ohmanfoo-modular/userstuff.py",
+		"/C/gapp/ohmanfoo-modular/projects.py",
+		"/C/gapp/ohmanfoo-modular/models.py",
+		"/C/gapp/ohmanfoo-modular/vartools.py",
+		"/C/gapp/ohmanfoo-modular/secret.py",
+		"/C/gapp/ohmanfoo/templates/permalink.html",
+		"/C/gapp/ohmanfoo/templates/admin/newproject.html",
+		"/C/gapp/ohmanfoo/templates/admin/newpost.html",
+		"/C/Users/admin/Downloads/hw4/blog.py",
+		"/C/Users/admin/Downloads/hw4/templates/base.html",
+		"/C/Users/admin/Downloads/hw4/templates/front.html",
+		"/C/Users/admin/Downloads/hw4/templates/login-form.html",
+		"/C/Users/admin/Downloads/hw4/templates/newpost.html",
+		"/C/Users/admin/Downloads/hw4/templates/permalink.html",
+		"/C/Users/admin/Downloads/hw4/templates/post.html",
+		"/C/Users/admin/Downloads/hw4/templates/signup-form.html",
+		"/C/gapp/ohmanfoo/templates/aboutme.html",
+		"/C/gapp/rsvp/nm.py",
+		"/C/gapp/rsvp/nm.pyc",
+		"/C/gapp/ohmanfoo/vartools.py",
+		"/C/gapp/rsvp/templates/admin/register.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"as_",
+			"if not self.user",
+			"self.user",
+			"top_m",
+			"top_",
+			"saveF",
+			"top_f",
+			"top_m",
+			"alread",
+			"top_m",
+			"top_f",
+			"top_m",
+			"clear()",
+			"clearing",
+			"clear()",
+			"\n                logging.error('clearing CACHE')",
+			"clear()",
+			"clearing",
+			"CACHE",
+			"index.html",
+			"404",
+			"title_check",
+			"parent",
+			"check_ca",
+			"check_",
+			"api/film",
+			"api/fil",
+			"signup-form",
+			"myfilms.ht",
+			"myfilms.html",
+			"wel",
+			"post",
+			"projec",
+			"film",
+			"film_id",
+			"add",
+			"font-",
+			">\n",
+			"<script type='text/javascript' src='/static/js/filmofile.js'></script>",
+			"/log",
+			"/login-form",
+			"admin/sign",
+			"register",
+			"font-size",
+			"font-",
+			"small ",
+			"small",
+			"smaller",
+			"box1",
+			"35.222",
+			"box3",
+			" order",
+			"user",
+			"by_",
+			"ohmanfoo",
+			"padding-",
+			"0D2430",
+			"row-wrap",
+			"flex-flow",
+			"flex-wr",
+			"flex-",
+			"config",
+			"content.style.display === 'none'",
+			"pjContent.style.width = '100%';\n                blogContent.style.width = '100%';",
+			"side-pro",
+			"flex-con",
+			"side-pr",
+			".about",
+			"min-h",
+			"side-",
+			"max-h",
+			"side-pr",
+			"side",
+			"url",
+			"post h",
+			"icons ",
+			"33",
+			"fantasy",
+			" order",
+			"-web",
+			"garamond",
+			"gara",
+			"document",
+			"overflow",
+			"ohmanfoo",
+			"back",
+			"scroll",
+			"blurb",
+			"login-form.html",
+			"'login-form.html'",
+			"p=",
+			"p =",
+			"User.",
+			"User",
+			"check_secure",
+			"check",
+			"jinja_env",
+			"render_post",
+			"render_str",
+			"make_se",
+			" p",
+			"p ",
+			"post",
+			" name ",
+			"pw_has",
+			"random",
+			"BlogHandler",
+			"register",
+			"jinja_",
+			"prim",
+			"footer",
+			"border",
+			"opacit",
+			"white",
+			"33",
+			"float",
+			"flex",
+			"application",
+			"BlogHandler"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/topfilms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1425,
+								1425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2503,
+								2503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/vartools.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/filmofile.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "filmfile.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2816,
+								2816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 2.0,
+						"translation.y": 989.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "models/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2619,
+								2449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/admin/Downloads/hw5/blog.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4668,
+								4668
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2626.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "static/js/filmofile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "static/js/bbone/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "static/js/bbone/collections/mylibrary.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "static/js/bbone/models/myfilm.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "static/js/bbone/views/myfilm.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "static/js/bbone/views/mylibrary.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								944,
+								944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 795.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.925925925926,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "filmfile.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\gapp\\ohmanfoo\\ohmanfolio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
